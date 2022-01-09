@@ -17,7 +17,7 @@ input.addEventListener('keyup', function() {
     }
  
     if (words) {
-        var sentences = input.value.split(/[.|!|?]+/g);
+        var sentences = input.value.split(/[.!?]+\s|$/g);
         console.log(sentences);
         sentenceCount.innerHTML = sentences.length - 1;
     }
