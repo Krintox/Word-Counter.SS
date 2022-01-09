@@ -244,3 +244,15 @@ p {
   }  
   
 }
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar-brand {
+    font-size: 1.4em;
+  }
+}
